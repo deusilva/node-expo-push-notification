@@ -9,7 +9,7 @@ function pushNotification() {
 
     // Create the messages that you want to send to clents
     let messages = [];
-    let somePushTokens = ['ExponentPushToken[TI39oNC6BndPnRwHKt-dZd]'];
+    let somePushTokens = [''];
     for (let pushToken of somePushTokens) {
         // Each push token looks like ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]
 
