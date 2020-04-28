@@ -25,7 +25,7 @@ function pushNotification() {
             sound: 'default',
             title: '',
             subtitle: '',
-            body: 'O dispositivo SWMP4 caiu',
+            body: 'My Dear Notification',
             data: { withSome: 'data' },
             priority: 'high',
             badge: 1,
@@ -66,5 +66,5 @@ app.get('/pushNotification', (request, response) => {
 });
 
 app.listen(12345, () => {
-    console.log('Servidor executando');
+    console.log('Server started');
 });
